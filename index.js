@@ -1,6 +1,7 @@
 const express = require('express')
 serviceRouter=express();
 
+
 serviceRouter.get('/', (request, response) => {
     response.send('welcome to my application')
 })
